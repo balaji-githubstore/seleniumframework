@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 public class LoginPage {
 	
-	private By userLoc= By.cssSelector("#LoginForm_username1");
+	private By userLoc= By.cssSelector("#LoginForm_username");
 	private By passLoc=By.id("LoginForm_password");
 	private By loginLoc=By.xpath("//*[@type='submit']");
 	private By errorLoc=By.xpath("//*[text()='Invalid user name']");
