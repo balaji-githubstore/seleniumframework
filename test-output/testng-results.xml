@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17791" started-at="2019-09-18T00:06:21 IST" finished-at="2019-09-18T00:06:39 IST">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="8430" started-at="2019-09-18T00:06:21 IST" finished-at="2019-09-18T00:06:29 IST">
+      <class name="com.maveric.mavericconnecttest.LoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.maveric.mavericconnecttest.LoginTest@72b6cbcc]" name="setUp" is-config="true" duration-ms="4212" started-at="2019-09-18T00:06:21 IST" finished-at="2019-09-18T00:06:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidCredentialTest()[pri:0, instance:com.maveric.mavericconnecttest.LoginTest@72b6cbcc]" name="invalidCredentialTest" duration-ms="1885" started-at="2019-09-18T00:06:25 IST" finished-at="2019-09-18T00:06:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentialTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.maveric.mavericconnecttest.LoginTest@72b6cbcc]" name="getResult" is-config="true" duration-ms="10" started-at="2019-09-18T00:06:27 IST" finished-at="2019-09-18T00:06:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidCredentialTest status=SUCCESS method=LoginTest.invalidCredentialTest()[pri:0, instance:com.maveric.mavericconnecttest.LoginTest@72b6cbcc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="validCredentialTest()[pri:0, instance:com.maveric.mavericconnecttest.LoginTest@72b6cbcc]" name="validCredentialTest" duration-ms="1634" started-at="2019-09-18T00:06:27 IST" finished-at="2019-09-18T00:06:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredentialTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.maveric.mavericconnecttest.LoginTest@72b6cbcc]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-18T00:06:29 IST" finished-at="2019-09-18T00:06:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validCredentialTest status=SUCCESS method=LoginTest.validCredentialTest()[pri:0, instance:com.maveric.mavericconnecttest.LoginTest@72b6cbcc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.maveric.mavericconnecttest.LoginTest@72b6cbcc]" name="browserQuit" is-config="true" duration-ms="656" started-at="2019-09-18T00:06:29 IST" finished-at="2019-09-18T00:06:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.maveric.mavericconnecttest.LoginTest -->
+    </test> <!-- Login Test -->
+    <test name="Add Time Test" duration-ms="9324" started-at="2019-09-18T00:06:29 IST" finished-at="2019-09-18T00:06:39 IST">
+      <class name="com.maveric.mavericconnecttest.AddTimeCartTest">
+        <test-method status="PASS" signature="reportSetUp(java.lang.String)[pri:0, instance:com.maveric.mavericconnecttest.AddTimeCartTest@27a5f880]" name="reportSetUp" is-config="true" duration-ms="154" started-at="2019-09-18T00:06:21 IST" finished-at="2019-09-18T00:06:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.maveric.mavericconnecttest.AddTimeCartTest@27a5f880]" name="setUp" is-config="true" duration-ms="3929" started-at="2019-09-18T00:06:29 IST" finished-at="2019-09-18T00:06:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="timeCartTest()[pri:0, instance:com.maveric.mavericconnecttest.AddTimeCartTest@27a5f880]" name="timeCartTest" duration-ms="2530" started-at="2019-09-18T00:06:33 IST" finished-at="2019-09-18T00:06:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeCartTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.maveric.mavericconnecttest.AddTimeCartTest@27a5f880]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-18T00:06:36 IST" finished-at="2019-09-18T00:06:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=timeCartTest status=SUCCESS method=AddTimeCartTest.timeCartTest()[pri:0, instance:com.maveric.mavericconnecttest.AddTimeCartTest@27a5f880] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.maveric.mavericconnecttest.AddTimeCartTest@27a5f880]" name="browserQuit" is-config="true" duration-ms="2861" started-at="2019-09-18T00:06:36 IST" finished-at="2019-09-18T00:06:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.maveric.mavericconnecttest.AddTimeCartTest@27a5f880]" name="tearDown" is-config="true" duration-ms="402" started-at="2019-09-18T00:06:39 IST" finished-at="2019-09-18T00:06:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.maveric.mavericconnecttest.AddTimeCartTest -->
+    </test> <!-- Add Time Test -->
+  </suite> <!-- Suite -->
+</testng-results>
